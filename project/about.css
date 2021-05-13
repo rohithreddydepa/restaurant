@@ -1,0 +1,65 @@
+header{
+    margin-top: 5px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../project/aboutback.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration:none ;
+    font-size: 25px ;
+    color:#fff;
+    padding: 5px 15px;
+    border-radius:12px solid #fff;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:black;
+    transition-delay: 0.6s ease;
+}
+.logo img{
+    float: left;
+    height: 150px;
+    width: auto;
+}
+ul li a.active{
+    background-color: #fff;
+    color:black;
+    transition-delay: 0.6s ease;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.title h1{
+    color:#fff;
+    margin-left: -80px;
+    font-size: 100px;
+    text-align: center;
+}
+.split{
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 30%;
+    height: 400px;
+    color: black;
+    float: left;
+}
+.image img{
+    float: left;
+    height:350px ;
+    object-fit: cover;
+    width: auto;
+}    

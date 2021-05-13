@@ -1,0 +1,90 @@
+*{
+    margin: 0 ;
+    padding-bottom: 25px;
+    font-family: Century Gothic;
+}
+
+header{
+    margin-top: 5px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../project/BACK.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration:none ;
+    font-size: 25px ;
+    color:#fff;
+    padding: 5px 15px;
+    border-radius:12px solid #fff;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:black;
+    transition-delay: 0.6s ease;
+}
+.logo img{
+    float: left;
+    height: 150px;
+    width: auto;
+}
+ul li a.active{
+    background-color: #fff;
+    color:black;
+    transition-delay: 0.6s ease;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.title h1{
+color:rgb(252, 49, 49);
+font-size: 60px;
+}
+.item{
+    position: absolute;
+    padding:0;
+    top: 50%;
+    left: 20%;
+}
+.item input[type=text]{
+    margin:0 auto;
+    padding-top: 15px;
+    font-size:25px ;
+    display: inline;
+    width:300%;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid black ;
+    color: black;
+}
+.split{
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 30%;
+    height: 400px;
+    color: black;
+    border :2px solid black;
+    float: left;
+}
+.split img{
+    padding: 10%;
+    float: left;
+    height:50% ;
+    object-fit: cover;
+    width: auto;
+}
+.split h1{
+    border: 5%;
+}
